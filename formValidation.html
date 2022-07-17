@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First form</title>
+
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form>
+            <label for="userid">User id:</label>
+            <input type="text" id="userid" required minlength="5" maxlength="12">
+            <br><br>
+    
+
+     
+            <label for="password">Password:</label>
+            <input type="password" id="password" required minlength="7" maxlength="12">
+            <br><br>
+        
+
+        
+            <label for="name">Name:</label>
+            <input type="text" id="name" optional>
+            <br><br>
+     
+
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" required>
+            <br><br>
+       
+       
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <br><br>
+        
+
+        
+            <label for="country">Country:</label>
+           <select id="country" required>
+            <option>South Africa</option>
+            <option>Namibia</option>
+            <option>Botswana</option>
+            <option>Finland</option>
+            <option>Egypt</option>
+            <option>Ghana</option>
+            <option>South Africa</option>
+            <option>Brazil</option>
+            <option>Mexico</option>
+            <option>Italy</option>
+            <option>Morocco</option>
+            <option>Poland</option>
+           </select>
+           <br><br>
+
+           
+           <label for="code">ZIP code:</label>
+           <input type="number" id="code" required>
+           <br>
+
+           <p>Sex:
+           <input type="radio" id="sex1" name="gender" required>
+           <label for="sex1">Male</label>
+           <input type="radio" id="sex2" name="gender" required>
+           <label for="sex1">Female</label>
+           </p>
+    
+           <p>Langage:
+            <input type="checkbox" id="english" required>
+            <label for="english">English</label>
+            <input type="checkbox" id="non-english" required>
+            <label for="english">Non English</label>
+           </p><br>
+
+           <label for="about">About:</label>
+           <textarea id="about"></textarea required>
+           <br><br>
+           
+           <input type="submit">
+
+       
+
+        
+
+
+        
+    </form>
+    
+</body>
+</html>

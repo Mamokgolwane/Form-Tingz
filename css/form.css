@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(223, 171, 171);
+    text-align:center;
+
+}
+
+input:required, select:required{
+    border-color: rgb(153, 21, 21);
+}
+
